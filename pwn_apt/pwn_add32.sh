@@ -13,3 +13,6 @@ echo source ~/.gdbinit-gef.py >> ~/.gdbinit;
 apt-get install libc6-dbg;
 git clone https://github.com/cloudburst/libheap;
 pip3 install --user ./libheap/;
+
+#oh-my-zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/chnxyzz/oh-my-zsh/master/tools/install.sh)";

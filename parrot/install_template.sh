@@ -1,1 +1,2 @@
-sed -i "s/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g" /etc/apt/sources.list
+sed -i "s/deb.parrotsec.org/mirrors.tuna.tsinghua.edu.cn/g" /etc/apt/sources.list.d/parrot.list;
+apt-get update;
