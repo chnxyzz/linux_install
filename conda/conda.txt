@@ -1,3 +1,11 @@
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --set show_channel_urls yes
+
+
+
+#windows python2.7 gmpy2
+#now failed!!!!!!
+#try try try
+conda install -n py2 ca-certificates mpc mpfr mpir openssl vs2015_runtime gmpy2 --no-deps
+
