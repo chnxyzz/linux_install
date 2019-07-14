@@ -1,0 +1,18 @@
+: 1563141038:0;python3 -m pip install capstone unicorn keystone-engine
+: 1563141075:0;python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple capstone unicorn keystone-engine
+: 1563141106:0;sudo python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple capstone unicorn keystone-engine
+: 1563141136:0;sudo apt-get install cmake
+: 1563141147:0;sudo python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple capstone unicorn keystone-engine
+: 1563141338:0;sudo python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple capstone unicorn keystone-engine ropper
+: 1563141344:0;gdb
+: 1563141359:0;pip3 install ropper
+: 1563141372:0;sudo pip3 install ropper
+: 1563141393:0;sudo pip3 install --upgrade pip
+: 1563141401:0;sudo pip3 install ropper
+: 1563141427:0;sudo python3 -m pip install ropper
+: 1563141447:0;sudo python3 -m pip install filebytes
+: 1563141499:0;sudo python3 -m pip install install "filebytes<0.9.20" ropper
+: 1563141509:0;sudo python3 -m pip install "filebytes<0.9.20" ropper
+: 1563141515:0;gdb
+: 1563141530:0;cat ~/.zshrc
+: 1563141536:0;cat ~/.zsh_history
