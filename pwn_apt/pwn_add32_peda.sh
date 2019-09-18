@@ -1,6 +1,6 @@
 dpkg --add-architecture i386;
 apt-get update;
-apt-get install wget cmake net-tools autojump lib32z1 libc6:i386 zsh gdb tmux python vim curl python-pip python3-pip git socat htop python-dev python3-dev libgmp-dev libmpfr-dev libmpc-dev -y;
+apt-get install wget cmake net-tools autojump lib32z1 libc6:i386 zsh gdb tmux python vim curl python-pip python3-pip git socat htop python-dev python3-dev libgmp-dev libmpfr-dev libmpc-dev python-setuptools python3-setuptools build-essential gcc g++ -y;
 #python
 python -m pip install pip --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache-dir;
 python -m pip install pwntools -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache-dir;
@@ -9,6 +9,11 @@ python -m pip install gmpy2 -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cac
 #peda
 git clone https://github.com/longld/peda.git ~/peda;
 echo "source ~/peda/peda.py" >> ~/.gdbinit;
+
+#pwngdb
+cd ~/;
+git clone https://github.com/scwuaptx/Pwngdb.git;
+cp ~/Pwngdb/.gdbinit ~/;
 
 #tmux
 echo c2V0IC1nIG1vdXNlIG9uOw==|base64 -d > ~/.tmux.conf;
