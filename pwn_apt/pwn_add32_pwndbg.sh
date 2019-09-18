@@ -9,6 +9,11 @@ python -m pip install gmpy2 -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cac
 #pwndbg;;
 git clone https://github.com/pwndbg/pwndbg && cd pwndbg && ./setup.sh;;
 
+#pwngdb
+cd ~/
+git clone https://github.com/scwuaptx/Pwngdb.git
+cp ~/Pwngdb/.gdbinit ~/
+
 #tmux
 echo c2V0IC1nIG1vdXNlIG9uOw==|base64 -d > ~/.tmux.conf;
 
