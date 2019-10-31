@@ -15,6 +15,8 @@ apt-get install libc6-dbg;
 git clone https://github.com/cloudburst/libheap;
 pip3 install --user ./libheap/;
 
+python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --no-cache-dir unicorn capstone keystone-engine ropper;
+
 #tmux
 echo c2V0IC1nIG1vdXNlIG9uOw==|base64 -d > ~/.tmux.conf;
 
