@@ -5,3 +5,4 @@ ip=10.1.0.17 && port=1080 && export http_proxy="$ip:$port/" && export https_prox
 
 
 
+sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/source.list && sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/source.list
