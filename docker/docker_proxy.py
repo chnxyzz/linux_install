@@ -7,7 +7,7 @@ templa1="""[Service]
  # For Proxy server which require username and password authentication, just add the proper username and password to the URL. (see example below)
 
  # Example without authentication
- Environment="HTTP_PROXY=http://10.1.0.17:1080" "NO_PROXY=localhost,127.0.0.0/8"
+ Environment="HTTP_PROXY=http://proxy.dopwn.cn:8080" "NO_PROXY=localhost,127.0.0.0/8"
 """
 templa2="""[Service]
  # NO_PROXY is optional and can be removed if not needed
@@ -15,7 +15,7 @@ templa2="""[Service]
  # For Proxy server which require username and password authentication, just add the proper username and password to the URL. (see example below)
 
  # Example without authentication
- Environment="HTTPS_PROXY=http://10.1.0.17:1080" "NO_PROXY=localhost,127.0.0.0/8"
+ Environment="HTTPS_PROXY=http://proxy.dopwn.cn:8080" "NO_PROXY=localhost,127.0.0.0/8"
 """
 f=open('/etc/systemd/system/docker.service.d/http-proxy.conf','w')
 f.write(templa1)
